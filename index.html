@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowers</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+</head>
+
+<body>
+  <header class="header ">
+    <div class="container ">
+      <div class="row d-flex justify-content-around align-items-center ">
+        <div class="col-md-2 ">
+          <a href="#" class="logo-link ">
+            <img src="img/logo.svg" alt="logo: flowers" class="logo-image">
+          </a>
+        </div>
+        <!-- /.col-md-6 -->
+        <div class="col-md-6">
+          <span class="description" id="first">Интернет-магазин <br>
+            цветов с доставкой <br>
+            по всей <span class="russia">России</span></span>
+        </div>
+        <!-- /.col-md-6 -->
+        <div class="col-md-3 d-flex flex-column align-items-end">
+          <div class="number">
+            <span class="number-call">8 (800) 654-87-45 </span>
+            <p class="number-text">Звонок по России бесплатный</p>
+          </div>
+          <a id="test" href="javascript:;" class="link-call ">Заказать звонок</a>
+
+        </div>
+        <!-- /.col-md-3 -->
+      </div>
+    </div>
+  </header>
+  <div class="container ">
+    <div class="row d-flex justify-content-center main-text">
+      <div class="col-8 d-flex justify-content-center">
+        <span class="text">Эксклюзивные цветы и букеты <br>
+          flowers Shop</span>
+
+      </div>
+      <div class="col-8  d-flex justify-content-center">
+        <span class="description-text">первая в россии эксклюзивная доставка цветов <br>
+          для людей, которые ценят <span class="description-text-two">уникальность</span></span>
+      </div>
+    </div>
+  </div>
+  <!-- Сдайдер с цветами -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper image">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <a href="#" class="img-link"><img src="img/flower-1.png" alt="" class="img-color"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="img-link"><img src="img/flower-2.png" alt="" class="img-color"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="img-link"><img src="img/flower-3.png" alt="" class="img-color"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="img-link"><img src="img/flower-4.png" alt="" class="img-color"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="img-link"><img src="img/flower-5.png" alt="" class="img-color"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="img-link"><img src="img/flower-6.png" alt="" class="img-color"></a>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <div class="row d-flex justify-content-between">
+              <div class="col-1">
+                <button class="slider-button slider-button-prev">
+                  <img src="img/arrow-prev.svg" alt="prev image">
+                </button>
+              </div>
+              <!-- /.col-1 -->
+              <div class="col-1">
+                <button class="slider-button slider-button-next">
+                  <img src="img/arrow-next.svg" alt="next image">
+                </button>
+              </div>
+              <!-- /.col-1 -->
+            </div>
+          </div>
+        </div>
+        <!-- swiper-container -->
+      </div>
+      <!-- col-12 -->
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+  <!-- конец слайдера с цветами -->
+
+  <div class="conatiner">
+    <div class="row d-flex justify-content-center">
+      <div class="col-9 d-flex justify-content-center">
+        <span class="text-sale">Закажите эксклюзивный букет со скидкой 10%</span>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <button data-fancybox data-src="#modal-2" href="javascript:;" class="button">Заказать букет</button>
+      </div>
+    </div>
+  </div>
+  <hr class="line">
+  <!-- Слайдер с отзывыми -->
+  <div class="container">
+    <h2 class="text-on-slider d-flex justify-content-center">Мы делаем лучшие букеты</h2>
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-10">
+        <!-- start slider -->
+        <div class="swiper-container slidertwo">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide d-flex align-items-center justify-content-center">
+              <div class="back-img back-img-1 d-flex align-items-center justify-content-center flex-column">
+                <span class="text-on-img-one">Алиса Иванова</span>
+                <span class="text-on-img-two">г. Ноябрьск</span>
+              </div>
+              <div class="description-slider">
+                <p class="slider-description">Я очень довольна таким отношением к делу. Обслужили просто превосходно, я
+                  заказывала
+                  по телефону — так подробно мне всё
+                  объяснили, помогли выбрать замечательный букет, и привезли всё вовремя, букет был очень красивый, он
+                  очень
+                  понравился,
+                  спасибо вам огромное.</p>
+                <a id="test" href="javascript:;" class="link-description">Посмотреть фотографии букета</a>
+              </div>
+            </div>
+          </div>
+          <!-- дополнительный котейнер -->
+          <div class="slider-nav-2">
+            <div class="container">
+              <div class="row d-flex justify-content-between">
+                <div class="col-1">
+                  <button class="slider-button slider-button-prev">
+                    <img src="img/arrow-prev.svg" alt="prev image">
+                  </button>
+                </div>
+                <!-- /.col-1 -->
+                <div class="col-1">
+                  <button class="slider-button slider-button-next">
+                    <img src="img/arrow-next.svg" alt="next image">
+                  </button>
+                </div>
+                <!-- /.col-1 -->
+              </div>
+            </div>
+          </div>
+          <!-- arrow -->
+        </div>
+        <!-- end slider -->
+      </div>
+      <!-- col-10 -->
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+  <div class="container">
+    <div class="row d-flex align-items-center justify-content-center img-padding ">
+      <div class="col-4 d-flex justify-content-center  flex-column align-items-center">
+        <img src="img/1img.png" alt="">
+        <span class="text-img">Только прямые <br> поставки цветов <br> из Голландии</span>
+      </div>
+      <div class="col-4 d-flex justify-content-center flex-column align-items-center">
+        <img src="img/2img.png" alt="">
+        <span class="text-img">Наши флористы <br> имеют 10 летний <br> стаж работы</span>
+      </div>
+      <div class="col-4 d-flex justify-content-center flex-column align-items-center">
+        <img src="img/3img.png" alt="">
+        <span class="text-img">Все цветы <br> вручную отбираются <br> нашими флористами</span>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+   <hr class="line">
+  <!-- LINE -->
+  <div class="container">
+    <div class="row d-flex align-items-center justify-content-center">
+      <h2 class="big-text">Собери свой букет</h2>
+      <h2 class="big-text-red">прямо сейчас!</h2>
+      <p class="title-on-card">Выберите желаемые цветы и наши флористы их оформят и доставят лично в руки!</p>
+      <!-- start card -->
+      <div class="d-flex justify-content-around justify-content-around">
+        <div class="d-flex justify-content-around card-shop">
+          <div class="col-3 d-flex align-items-center flex-column card">
+            <img src="img/card-img.png" alt="" class="image-card">
+            <h2 class="text-card">Розы</h2>
+            <span class="decription-card">Выберите цвет:</span>
+            <div class="color d-flex align-items-center  justify-content-between">
+              <div class="white"></div>
+              <div class="brown"></div>
+              <div class="pink"></div>
+              <div class="red"></div>
+              <div class="blue"></div>
+            </div>
+            <span class="decription-card">Количество:</span>
+            <div class="slider-card"></div>
+            <div class="arrow-card"></div>
+            <button class="button-card">в корзину</button>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="d-flex justify-content-around card-shop">
+          <div class="col-3 d-flex align-items-center flex-column card">
+            <img src="img/card-img.png" alt="" class="image-card">
+            <h2 class="text-card">Розы</h2>
+            <span class="decription-card">Выберите цвет:</span>
+            <div class="color d-flex align-items-center ">
+              <div class="white"></div>
+              <div class="brown"></div>
+              <div class="pink"></div>
+              <div class="red"></div>
+              <div class="blue"></div>
+            </div>
+            <span class="decription-card">Количество:</span>
+            <div class="slider-card"></div>
+            <div class="arrow-card"></div>
+            <button class="button-card">в корзину</button>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="d-flex justify-content-around card-shop">
+          <div class="col-3 d-flex align-items-center flex-column card">
+            <img src="img/card-img.png" alt="" class="image-card">
+            <h2 class="text-card">Розы</h2>
+            <span class="decription-card">Выберите цвет:</span>
+            <div class="color d-flex align-items-center ">
+              <div class="white"></div>
+              <div class="brown"></div>
+              <div class="pink"></div>
+              <div class="red"></div>
+              <div class="blue"></div>
+            </div>
+            <span class="decription-card">Количество:</span>
+            <div class="slider-card"></div>
+            <div class="arrow-card"></div>
+            <button class="button-card">в корзину</button>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="d-flex justify-content-around card-shop">
+          <div class="col-3 d-flex align-items-center flex-column card">
+            <img src="img/card-img.png" alt="" class="image-card">
+            <h2 class="text-card">Розы</h2>
+            <span class="decription-card">Выберите цвет:</span>
+            <div class="color d-flex align-items-center ">
+              <div class="white"></div>
+              <div class="brown"></div>
+              <div class="pink"></div>
+              <div class="red"></div>
+              <div class="blue"></div>
+            </div>
+            <span class="decription-card">Количество:</span>
+            <div class="slider-card"></div>
+            <div class="arrow-card"></div>
+            <button class="button-card">в корзину</button>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+      <div class="d-flex justify-content-around justify-content-around">
+        <div class="d-flex justify-content-around card-shop">
+          <div class="col-3 d-flex align-items-center flex-column card">
+            <img src="img/card-img.png" alt="" class="image-card">
+            <h2 class="text-card">Розы</h2>
+            <span class="decription-card">Выберите цвет:</span>
+            <div class="color d-flex align-items-center  justify-content-between">
+              <div class="white"></div>
+              <div class="brown"></div>
+              <div class="pink"></div>
+              <div class="red"></div>
+              <div class="blue"></div>
+            </div>
+            <span class="decription-card">Количество:</span>
+            <div class="slider-card"></div>
+            <div class="arrow-card"></div>
+            <button class="button-card">в корзину</button>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="d-flex justify-content-around card-shop">
+          <div class="col-3 d-flex align-items-center flex-column card">
+            <img src="img/card-img.png" alt="" class="image-card">
+            <h2 class="text-card">Розы</h2>
+            <span class="decription-card">Выберите цвет:</span>
+            <div class="color d-flex align-items-center ">
+              <div class="white"></div>
+              <div class="brown"></div>
+              <div class="pink"></div>
+              <div class="red"></div>
+              <div class="blue"></div>
+            </div>
+            <span class="decription-card">Количество:</span>
+            <div class="slider-card"></div>
+            <div class="arrow-card"></div>
+            <button class="button-card">в корзину</button>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="d-flex justify-content-around card-shop">
+          <div class="col-3 d-flex align-items-center flex-column card">
+            <img src="img/card-img.png" alt="" class="image-card">
+            <h2 class="text-card">Розы</h2>
+            <span class="decription-card">Выберите цвет:</span>
+            <div class="color d-flex align-items-center ">
+              <div class="white"></div>
+              <div class="brown"></div>
+              <div class="pink"></div>
+              <div class="red"></div>
+              <div class="blue"></div>
+            </div>
+            <span class="decription-card">Количество:</span>
+            <div class="slider-card"></div>
+            <div class="arrow-card"></div>
+            <button class="button-card">в корзину</button>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="d-flex justify-content-around card-shop">
+          <div class="col-3 d-flex align-items-center flex-column card">
+            <img src="img/card-img.png" alt="" class="image-card">
+            <h2 class="text-card">Розы</h2>
+            <span class="decription-card">Выберите цвет:</span>
+            <div class="color d-flex align-items-center ">
+              <div class="white"></div>
+              <div class="brown"></div>
+              <div class="pink"></div>
+              <div class="red"></div>
+              <div class="blue"></div>
+            </div>
+            <span class="decription-card">Количество:</span>
+            <div class="slider-card"></div>
+            <div class="arrow-card"></div>
+            <button class="button-card">в корзину</button>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+
+    </div>
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-2 ">
+        <a href="" class="all-color">Все цветы</a>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center justify-content-center flex-column">
+        <div class="col-8 what d-flex align-items-center flex-column justify-content-center">
+          <span class="main-text-footer"> ОСТАЛИСЬ ВОПРОСЫ?</span>
+          <span class="main-text-footer2">ЗАКАЖИТЕ ЗВОНОК НАШЕГО флориста!</span>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <p class="decription-footer">или позвоните по телефону</p>
+        </div>
+        <div class="col-4">
+          <span class="number-footer">8 (800) 654-87-45</span>
+        </div>
+      </div>
+      <!-- /.row -->
+  </footer>
+  <div class="row under d-flex  align-items-center justify-content-between">
+    <div class="col-3">
+      <div class="d-flex align-items-center justify-content-around">
+        <h2 class="main-text-under">ДОСТАВКА</h2>
+        <h2 class="main-text-under"> ОПЛАТА</h2>
+      </div>
+      <div class="align-items-center d-flex justify-content-center pading">
+        <span class="description-vk">Присоединяйтесь к нам:</span>
+        <img src="img/vk-icon.png" alt="vk">
+      </div>
+    </div>
+    <div class="col-3 align-items-center flex-column">
+      <div class="">
+        <span class="description-number2">Отдел обслуживания клиентов</span>
+      </div>
+      <div class=" number-under">
+        <span class="number-under">8 (800) 654-87-45</span>
+      </div>
+      <div class="">
+        <span class="description-number2">Ежедневно, круглосуточно.</span>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+  </div>
+  <!-- /.container -->
+  <div class="background-under">
+    <div class="container">
+      <div class="row d-flex justify-content-around align-items-center ">
+        <div class="col-md-2 ">
+          <a href="#" class="logo-link ">
+            <img src="img/under-logo.png" alt="logo: flowers" class="logo-image">
+          </a>
+        </div>
+        <!-- /.col-md-6 -->
+        <div class="col-md-6">
+          <span class="description-under" id="first">Интернет-магазин <br>
+            цветов с доставкой <br>
+            по всей <span class="russia-under">России</span>
+        </div>
+        <!-- /.col-md-6 -->
+        <div class="col-md-3 d-flex flex-column align-items-end">
+          <div class="number-under">
+            <p class="number-text-under">Разработка сайта: Artem Matyshenko</p>
+          </div>
+        </div>
+        <!-- /.col-md-3 -->
+      </div>
+    </div>
+    <!-- container -->
+  </div>
+  <!-- HIDDEN CARD -->
+  <div class="modal" id="modal">
+    <h2 class="title-hide"> Call me</h2>
+    <form action="">
+      <input class="form" type="text">
+      <button class="button">Call me pls</button>
+    </form>
+  </div>
+  <div class="modal-2" id="modal-2">
+    <h2 class="title-hide"> Call me</h2>
+    <form action="">
+      <input class="form phone" type="text">
+      <button class="button-2">Call me pls</button>
+    </form>
+  </div>
+  <!-- HIDDEN CARD -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
